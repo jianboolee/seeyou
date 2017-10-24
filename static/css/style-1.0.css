@@ -1,0 +1,45 @@
+body{
+	font-family:"宋体",SimSun;
+}
+.full-page-section{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+.full-page-section>img{
+	width: 100%;
+}
+.full-page-section .description{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	padding: 200px 10px;
+	z-index: 100;
+}
+.full-page-section .description h2{
+	font-size: 36px;
+}
+.full-page-section .logo{
+	max-width: 300px;
+	margin: 10px auto;
+	text-align: center;
+	padding: 100px 0;
+}
+.full-page-section .logo>img{
+	max-width: 100%;
+}
+.text-gray{
+	color: #888;
+}
+.bg-gray{
+	background-color: #EEE;
+}
+.bg-green{
+	background-color: #92d050;
+	color: #FFF;
+}
+
+

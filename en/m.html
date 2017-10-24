@@ -1,0 +1,27 @@
+<div class="swipe-container">
+
+</div>
+
+<style>
+	.swipe-container{
+		width: 500px;
+		height: 200px;
+		background-color: #f8f8f8;
+	}
+</style>
+
+<script type="text/javascript" src="static/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="static/js/jquery.mobile-1.4.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$target = $('.swipe-container');
+
+	$target.on('swipeleft',function(){
+		console.log('next');
+	});
+	$target.on('swiperight',function(){
+		console.log('prev');
+	});
+});
+
+</script>
